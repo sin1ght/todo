@@ -54,6 +54,8 @@ div{
         display: flex;
         width: 100vw;
         height: 100vh;
+        background: url("assets/bg.png") no-repeat  center;
+        background-size: cover;
 
         >div{
             height: 100%;
@@ -66,6 +68,7 @@ div{
             &:nth-child(2){
                 width: 80%;
                 display: flex;
+                background:rgba(250, 250, 250, 0.32);
 
                 >div{
                     height: 100%;

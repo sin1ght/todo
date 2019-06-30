@@ -69,43 +69,6 @@ export default {
 
 
 <style lang="scss">
-@keyframes cat_dead {
-    0%{
-        background: url('../../assets/cat/walk1.png')
-    }
-    10%{
-        background: url('../../assets/cat/walk2.png')
-    }
-    20%{
-        background: url('../../assets/cat/walk3.png')
-    }
-    30%{
-        background: url('../../assets/cat/walk4.png')
-    }
-    40%{
-        background: url('../../assets/cat/walk5.png')
-    }
-    50%{
-        background: url('../../assets/cat/walk6.png')
-    }
-    60%{
-        background: url('../../assets/cat/walk7.png')
-    }
-    70%{
-        background: url('../../assets/cat/walk8.png')
-    }
-    80%{
-        background: url('../../assets/cat/walk9.png')
-    }
-    90%{
-        background: url('../../assets/cat/walk0.png')
-    }
-    100%{
-        background: url('../../assets/cat/walk1.png')
-    }
-}
-
-
 
 .todo-detail-page{
     width: 100%;
@@ -128,6 +91,7 @@ export default {
             border: none;
             outline: none;
             resize: none;
+            background: none;
         }
     }
 }
@@ -143,7 +107,7 @@ export default {
         background: no-repeat center;
         width: 100px;
         height: 100px;
-        background-image: url("../../assets/error.gif") ;
+        //background-image: url("../../assets/error.gif") ;
         background-size:contain;
         // width:100%;
         // height: 90%;

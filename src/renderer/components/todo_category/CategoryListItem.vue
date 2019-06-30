@@ -39,11 +39,11 @@ export default {
     }
 
     &:hover{
-        background:rgba(234, 234, 234, 0.84);
+        background:rgba(214, 239, 235, 0.49);
     }    
 }
 
 .active-category-list-item{
-    background:rgba(234, 234, 234, 0.84);
+    background:rgba(214, 239, 235, 0.49);
 }
 </style>
